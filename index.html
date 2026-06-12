@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Roman Hrušák">
+    <title>Bc. Roman Hrušák – Projektový manažer B2B realizací | Blansko</title>
+    <meta name="description" content="Deset let působím jako projektový manažer v B2B prostředí, kde vedu projekty od první obchodní schůzky až po předání hotového díla. Blansko.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo-area">
+                <a href="#hero" class="logo-link">
+                    <span class="logo-name">Bc. Roman <strong>Hrušák</strong></span>
+                    <span class="logo-tagline">Projektový manažer B2B realizací · Blansko</span>
+                </a>
+            </div>
+            <nav class="main-nav" id="main-navigation">
+                <ul>
+                    <li><a href="#profil" class="nav-link">Profil</a></li>
+                    <li><a href="#pristup" class="nav-link">Přístup</a></li>
+                    <li><a href="#klienti" class="nav-link">Klienti</a></li>
+                    <li><a href="#dovednosti" class="nav-link">Dovednosti</a></li>
+                    <li><a href="#proc-tato-pozice" class="nav-link">Proč tato pozice</a></li>
+                    <li><a href="#contact" class="nav-btn">Kontakt</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-nav-toggle" id="menu-toggle" aria-label="Otevřít menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="location-badge">
+                    <span class="badge-icon">📍</span> Blansko
+                </div>
+                <h1 class="hero-title">Roman <span class="hero-title-highlight">Hrušák</span></h1>
+                <p class="hero-subtitle">Projektový manažer B2B realizací</p>
+                <div class="hero-contact-strip">
+                    <a href="tel:+420739040885" class="hero-contact-item" id="tel-hero">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.22 12 19.79 19.79 0 0 1 1.15 3.4 2 2 0 0 1 3.11 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        739 040 885
+                    </a>
+                    <a href="mailto:r.hrusak@seznam.cz" class="hero-contact-item" id="email-hero">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        r.hrusak@seznam.cz
+                    </a>
+                    <a href="https://linkedin.com/in/roman-hrusak" target="_blank" rel="noopener noreferrer" class="hero-contact-item" id="linkedin-hero">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        linkedin.com/in/roman-hrusak
+                    </a>
+                </div>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary" id="cta-hero-contact">Pojďme se sejít</a>
+                    <a href="#klienti" class="btn btn-secondary" id="cta-hero-refs">Zobrazit reference</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="photo-card">
+                    <img
+                        src="fotky/dsc05651.jpg"
+                        alt="Roman Hrušák – Projektový manažer B2B realizací"
+                        class="profile-photo"
+                        id="profile-photo"
+                    >
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROFIL -->
+    <section id="profil" class="content-section section-white">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tagline">Kdo jsem</span>
+                <h2 class="section-title">Profil</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="profil-content">
+                <p class="profil-lead">
+                    Deset let působím jako projektový manažer v B2B prostředí, kde vedu projekty a týmy od první obchodní schůzky až po předání hotového díla a zpracování reference. Jde především o propagační firemní a produktová videa pro klienty z průmyslu a B2B sektoru.
+                </p>
+                <p class="profil-lead">
+                    Po této dekádě uvažuji o změně a zaujala mě volná pozice Projektového manažera pro B2B REALIZACE POLEPŮ A BRANDINGOVÝCH INSTALACÍ. 
+                    Taky proto, že jsem z Blanska a značku Polepim registruji od jejích začátků. Líbí se mi její dosavadní cesta i potenciál do budoucna.
+                </p>
+                <p class="profil-lead">
+                    Proto podle mě stojí za to zjistit, jestli si můžeme vzájemně pomoct dál růst.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOUČASNÁ PRAXE A ODPOVĚDNOSTI -->
+    <section id="praxe" class="content-section section-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tagline">Co dělám posledních 10 let</span>
+                <h2 class="section-title">Současná praxe a odpovědnosti</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="praxe-grid">
+                <div class="praxe-card">
+                    <div class="praxe-icon-wrap">
+                        <!-- Credit Card / Obchod icon -->
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2" ry="2"></rect><line x1="2" y1="10" x2="22" y2="10"></line></svg>
+                    </div>
+                    <h3>Obchod</h3>
+                    <p>Zakázky si samostatně vyhledávám, sjednávám a uzavírám. Mým cílem není prodat za každou cenu, ale skutečně přinést hodnotu a výsledky klientovi. Vždy skutečně poslouchám, protože to, co klient na začátku poptává, není vždycky to, co skutečně potřebuje.</p>
+                </div>
+                <div class="praxe-card">
+                    <div class="praxe-icon-wrap">
+                        <!-- PM / Organizace icon -->
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="8" y1="15" x2="16" y2="15"/></svg>
+                    </div>
+                    <h3>Projektové řízení</h3>
+                    <p>Vedu kompletní realizaci od A do Z. Jsem prostředníkem mezi klientem a naší firmou. Sestavím tým, rozdělím úkoly a zodpovědnosti, dohlížím na plnění a poskytuji podporu. Komunikuji s klientem, reaguji na aktuální situaci.</p>
+                </div>
+                <div class="praxe-card">
+                    <div class="praxe-icon-wrap">
+                        <!-- Terén / Location icon -->
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="3"/><path d="M12 2a8 8 0 0 1 8 8c0 5.25-8 13-8 13S4 15.25 4 10a8 8 0 0 1 8-8z"/></svg>
+                    </div>
+                    <h3>Realizace v terénu</h3>
+                    <p>Na každém natáčení jsem osobně. Snažím se kolegům připravit takové podmínky, aby mohli podat 100% výkon. Klient ocení, že jsem pro něj kontaktní bod po celou dobu spolupráce.</p>
+                </div>
+                <div class="praxe-card">
+                    <div class="praxe-icon-wrap">
+                        <!-- Reference / Star icon -->
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <h3>Předání a reference</h3>
+                    <p>Hotové dílo předávám klientovi a nesu za něj zodpovědnost. Sbírám zpětnou vazbu a zpracovávám podklady pro tvorbu reference.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRACOVNÍ PŘÍSTUP -->
+    <section id="pristup" class="content-section section-white">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tagline">Jak pracuji</span>
+                <h2 class="section-title">Pracovní přístup</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="pristup-container">
+                <div class="pristup-text">
+                    <p>Stojím si za tím, že přístup je stejně důležitý jako výstup a služba okolo produktu utváří celkový klientský zážitek.</p>
+                    <p>Proto se snažím, aby byl klient po celou dobu spolupráce informovaný, znal aktuální stav zakázky a aby si kromě kvalitního výstupu odnesl i pohodovou zkušenost.</p>
+                </div>
+                <div class="pristup-tym">
+                    <p>Realizační tým aktuálně sestavuji individuálně pro každý projekt a vytvářím mu takové podmínky, aby mohl podat maximální výkon. Jasně rozdělím kompetence a úkoly a očekávám jejich perfektní plnění. Zároveň jsem ale k dispozici a k podpoře.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VYBRANÍ KLIENTI & REFERENCE -->
+    <section id="klienti" class="content-section section-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tagline">Prověřená spolupráce</span>
+                <h2 class="section-title">Reference klientů</h2>
+                <div class="section-divider"></div>
+            </div>
+              <p class="klienti-intro">
+                Mám zkušenost se zakázkami napříč spektrem od globálních značek po malé manufaktury. Mezi mé klienty patří ABB, Bosch Rexroth, Fanuc, Le&amp;Co, Sanela a spousta dalších.<br>
+                Nedělám rozdíl mezi malým a velkým klientem, vždy se snažím kombinovat profesionální přístup s lidskostí a nadhledem.
+            </p>
+
+            <!-- Testimonials Grid -->
+            <div class="testimonials-grid">
+
+                <div class="testimonial-card">
+                    <span class="quote-icon">"</span>
+                    <blockquote class="testimonial-quote">
+                        Sehraná akce od první minuty – jasně rozdělené role, přímá komunikace bez šumu a skvělá schopnost adaptace přímo v terénu výroby. Inspirativní ukázka toho, jak může vypadat opravdu efektivní spolupráce. Obrovský respekt týmu pod vedením <strong>Romana Hrušáka</strong>.
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <cite class="author-name">Michal Horák</cite>
+                            <span class="author-title">Process Engineering Manager, ABB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <span class="quote-icon">"</span>
+                    <blockquote class="testimonial-quote">
+                        Jste Creative Crew, ale při akci takového rozsahu se kreativita moc nevítá. A to je přesně, co jako zákazník potřebuju. Perfektní příprava a domnělá lehkost v průběhu. A vy jste byli tak profesionální a přitom navíc krásně lidští.
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <cite class="author-name">Iva Straitová</cite>
+                            <span class="author-title">B2B Marketing Director & Tech Marketer, Bosch Rexroth</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <span class="quote-icon">"</span>
+                    <blockquote class="testimonial-quote">
+                        Thank you for the great work, <strong>Roman Hrusak</strong>! Collaborating with you and your team was smooth, fun filled and productive!! In fact, the results speak for itself!
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <cite class="author-name">Nimil Nelson David</cite>
+                            <span class="author-title">Product Management & Portfolio Leader, Kongsberg PCS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <span class="quote-icon">"</span>
+                    <blockquote class="testimonial-quote">
+                        Spolupráce je velmi příjemná už od výběrového řízení a dotahování scénáře, ale tyto dny s celým Vaším týmem byly (i přes svou náročnost) opravdu zábavné a inspirující. Nemůžeme se dočkat výsledku!
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <cite class="author-name">Pavel Šturma</cite>
+                            <span class="author-title">Communication Manager, ABB Brno</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="testimonial-card">
+                    <span class="quote-icon">"</span>
+                    <blockquote class="testimonial-quote">
+                        Výsledkem může být, kromě vynikajícího výstupu, také dlouhodobé partnerství. Váš přístup bych označil jako long-term business. Jsem přesvědčený, že u nás vaše práce ještě neskončila.
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <cite class="author-name">Zdeněk Vidlář</cite>
+                            <span class="author-title">Vedení, vize a strategie společnosti, Minyx</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <span class="quote-icon">"</span>
+                    <blockquote class="testimonial-quote">
+                        Když něco děláme, tak s radostí. Dva dny práce na 2 minuty výsledku… díky této zkušenosti jsem začal vnímat věci úplně z jiného úhlu. Skvělá spolupráce s <strong>Romanem</strong> a jeho týmem.
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <cite class="author-name">Radek Kaňovský</cite>
+                            <span class="author-title">CEO, RAVEO s.r.o. – pohonná technika, automatizace a robotika</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- DOVEDNOSTI A NÁSTROJE -->
+    <section id="dovednosti" class="content-section section-white">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tagline">Nástroje a kompetence</span>
+                <h2 class="section-title">Dovednosti a nástroje</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="dovednosti-grid">
+                <div class="dovednost-item">
+                    <div class="dovednost-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                    </div>
+                    <div class="dovednost-content">
+                        <h4>AI nástroje</h4>
+                        <p>Běžně využívám nástroje umělé inteligence, nejvíc: Claude, ChatGPT, Gemini, Antigravity a Typeless</p>
+                    </div>
+                </div>
+                <div class="dovednost-item">
+                    <div class="dovednost-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="9" x2="9" y2="21"/><line x1="15" y1="9" x2="15" y2="21"/></svg>
+                    </div>
+                    <div class="dovednost-content">
+                        <h4>MS Office</h4>
+                        <p>Ovládám Excel a běžnou MS Office agendu.</p>
+                    </div>
+                </div>
+                <div class="dovednost-item">
+                    <div class="dovednost-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <div class="dovednost-content">
+                        <h4>CRM</h4>
+                        <p>Aktuálně pracuji v systému 321 Intra; do nového systému typu Raynet se určitě rychle zapracuji.<br>
+                        Dál pro práci rád užívám ekosystém Apple</p>
+                    </div>
+                </div>
+                <div class="dovednost-item">
+                    <div class="dovednost-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                    </div>
+                    <div class="dovednost-content">
+                        <h4>Marketing</h4>
+                        <p>Marketing a propagace je součástí mojí dosavadní každodenní praxe.</p>
+                    </div>
+                </div>
+                <div class="dovednost-item">
+                    <div class="dovednost-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    </div>
+                    <div class="dovednost-content">
+                        <h4>Jazyky</h4>
+                        <p><strong>Angličtina:</strong> Angličtina na úrovni B2, projekty zvládám vést i v angličtině.<br>
+                        <strong>Němčina:</strong> Němčinu mám na nízké úrovni ze ZŠ, ale rád si její úroveň vylepším vhodnými kurzy.</p>
+                    </div>
+                </div>
+                <div class="dovednost-item">
+                    <div class="dovednost-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                    </div>
+                    <div class="dovednost-content">
+                        <h4>Technické výkresy</h4>
+                        <p>V technických výkresech se zatím nepohybuji, ale určitě se rychle zorientuji.</p>
+                    </div>
+                </div>
+                <div class="dovednost-item">
+                    <div class="dovednost-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    </div>
+                    <div class="dovednost-content">
+                        <h4>Seberozvoj</h4>
+                        <p>Rád se dovzdělávám, chodím na přednášky a konference. Věřím, že se má člověk stále co učit.</p>
+                    </div>
+                </div>
+                <div class="dovednost-item">
+                    <div class="dovednost-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <div class="dovednost-content">
+                        <h4>Řidičské oprávnění</h4>
+                        <p>Řidičské oprávnění sk. B a A.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROČ TATO POZICE -->
+    <section id="proc-tato-pozice" class="content-section section-dark">
+        <div class="container">
+            <div class="section-header section-header--light">
+                <span class="section-tagline section-tagline--light">Moje motivace</span>
+                <h2 class="section-title section-title--light">Proč právě tato pozice</h2>
+                <div class="section-divider section-divider--yellow"></div>
+            </div>
+            <div class="proc-content">
+                <p>To, co popisujete v inzerátu, dělám deset let, pouze v jiném médiu.</p>
+                <p>Jsem samostatný, práci a čas si rád organizuji sám a motivuje mě dotažení a úspěšné předání projektu. Rád pracuji v týmu, od kolegů čekám kvalitu a rád je podpořím, aby měli podmínky ji dodat.</p>
+                <p>Po deseti letech v jedné firmě nabírám pocit, že zraje čas na změnu a začínám se rozhlížet, kam by tahle změna mohla vést.</p>
+                <div class="proc-highlight">
+                    <p>Nejde mi o to zalíbit se za každou cenu, zajímá mě, jestli bychom si sedli a jestli by spolupráce dávala smysl oběma stranám.<br>
+                    Pokud je to zajímavé i pro vás, rád se sejdu, abychom to mohli probrat osobně.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section id="contact" class="content-section section-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tagline">Pojďme se potkat</span>
+                <h2 class="section-title">Kontakt</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-box">
+                <div class="contact-info-panel">
+                    <div class="contact-details">
+                        <div class="contact-detail-item">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.22 12 19.79 19.79 0 0 1 1.15 3.4 2 2 0 0 1 3.11 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            </div>
+                            <div class="contact-text">
+                                <span class="label">Telefon</span>
+                                <a href="tel:+420739040885" class="value" id="tel-contact">739 040 885</a>
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            </div>
+                            <div class="contact-text">
+                                <span class="label">E-mail</span>
+                                <a href="mailto:r.hrusak@seznam.cz" class="value" id="email-contact">r.hrusak@seznam.cz</a>
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                            </div>
+                            <div class="contact-text">
+                                <span class="label">LinkedIn</span>
+                                <a href="https://linkedin.com/in/roman-hrusak" target="_blank" rel="noopener noreferrer" class="value" id="linkedin-contact">linkedin.com/in/roman-hrusak</a>
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div class="contact-text">
+                                <span class="label">Lokalita</span>
+                                <span class="value">Blansko, Jihomoravský kraj</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="print-cv-area">
+                        <button class="btn btn-outline-light" id="btn-print-cv">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+                            Vytisknout / Uložit jako PDF
+                        </button>
+                    </div>
+                </div>
+
+                <div class="contact-form-panel">
+                    <h3 class="form-title">Napište mi</h3>
+                    <form id="contact-form" onsubmit="event.preventDefault(); document.getElementById('form-success').style.display='flex';">
+                        <div class="form-group">
+                            <label for="form-name">Jméno / Firma</label>
+                            <input type="text" id="form-name" placeholder="Např. Filip Martínek / Polepim team" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-email">E-mail</label>
+                            <input type="email" id="form-email" placeholder="jmeno@firma.cz" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-message">Zpráva</label>
+                            <textarea id="form-message" rows="5" placeholder="Dobrý den Romane, zaujal nás Váš profil…" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" id="btn-send-message">Odeslat zprávu</button>
+                    </form>
+                    <div id="form-success" class="form-success" style="display:none;">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                        <p>Děkuji za zprávu! Ozvu se vám co nejdříve.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Bc. Roman Hrušák — Projektový manažer B2B realizací, Blansko</p>
+            <div class="footer-links">
+                <a href="https://linkedin.com/in/roman-hrusak" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="#hero">Zpět nahoru ↑</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
